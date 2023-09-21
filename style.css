@@ -12,7 +12,7 @@ body {
   line-height: 1.4;
 }
 
-header section, nav ul, main, footer section {
+header section, nav ul, main, footer section, footer div {
   width: 900px;
   margin: auto;
 }
