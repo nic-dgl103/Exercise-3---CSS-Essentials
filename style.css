@@ -8,49 +8,53 @@ body {
   margin: 0;
   color: #450f0f;
   background-color: #F9F3E9;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
-header section, nav ul, main, footer section, footer div {
+header section,
+nav ul,
+main,
+footer section,
+footer div {
   width: 900px;
   margin: auto;
 }
 
 a {
-  color: 	#CC5500
+  color: #CC5500
 }
 
 /* ------- HEADERS ------- */
 
-/* the header on every page */ 
-{
+/* the header on every page */
+  {
   background-image: url(images/outside.jpg);
   background-size: cover;
   background-position: center;
 }
 
-/* a section of content inside the header on every page */ 
-{
+/* a section of content inside the header on every page */
+  {
   padding: 100px 0;
   color: white;
   font-size: 30px;
 }
 
-/* the homepage header only */ 
-{
+/* the homepage header only */
+  {
   background-image: url(images/patio.jpg);
 }
 
-/* a section of content inside the homepage header only */ 
-{
+/* a section of content inside the homepage header only, not the story page */
+  {
   font-size: 40px;
 }
 
 /* ------- NAVIGATION ------- */
 
 /* the navigation */
-{
+  {
   background-color: #5f1422;
   color: white;
   font-family: sans-serif;
@@ -60,63 +64,67 @@ a {
 }
 
 /* a list in the navigation */
-{
+  {
   list-style-type: none;
 }
 
-/* a list item in the navigation */ 
-{
+/* a list item in the navigation */
+  {
   display: inline-block;
   padding: 20px 40px;
 }
 
-/* an anchor in the navigation */ 
-{
+/* an anchor in the navigation */
+  {
   color: #FFAA1D;
   text-decoration: none;
 }
 
-/* the current page in the navigation */ 
-{
+/* the current page in the navigation */
+  {
   color: white;
 }
 
 /* ------- FOOTER ------- */
 
-/* the footer */ 
-{
+/* the footer */
+  {
   font-family: sans-serif;
   background-color: #292929;
   color: white;
   font-size: 14px;
 }
 
-/* the sections of content inside the footer */ 
-{
+/* a section of content inside the footer */
+  {
   padding: 20px 0;
 }
 
-/* a level 2 heading inside the footer */ 
-{
-font-size: 18px;
+/* a level 2 heading inside the footer */
+  {
+  font-size: 18px;
 }
 
 /* an anchor inside the footer */
-{
+  {
   color: #FFAA1D;
 }
 
+/* a div element inside the footer */
+  {
+  padding: 15px 0 25px;
+}
 
 /* ======== CONTENT BLOCKS ========= */
 
-/* ------- HIGHLIGHT BLOCK ------- */
+/* ------- INTRO BLOCK ------- */
 
-/* the groups of content that are highlighted because they are page introductions */  
-{
+/* the groups of content that are highlighted because they are page introductions */
+  {
   text-align: center;
   padding: 40px 0;
   margin: 40px auto;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.4;
   background-image: url(images/cbc-logo-orange.png);
   background-size: 200px 200px;
@@ -126,8 +134,8 @@ font-size: 18px;
 
 /* ------- FEATURE BLOCK ------- */
 
-/* the self-contained groups of content that advertise another part of the website  */  
-{
+/* the self-contained groups of content that advertise another part of the website  */
+  {
   font-size: 18px;
   padding: 40px;
   margin: 56px 0;
@@ -139,79 +147,79 @@ font-size: 18px;
   text-align: center;
 }
 
-/* a level 2 heading inside the self-contained groups of content that advertise another part of the website */  
-{
+/* a level 2 heading inside the advert */
+  {
   font-size: 48px;
   font-family: serif;
   margin-top: 0;
 }
- 
- /* an anchor inside the self-contained groups of content that advertise another part of the website */ 
-{
-   color: #FFAA1D;
+
+/* an anchor inside the advert */
+  {
+  color: #FFAA1D;
 }
 
-/* the self-contained group of content that advertises the beer page  */  
-{
+/* the advert that links to the beer page  */
+  {
   background-image: url(images/beer.jpg);
 }
 
-/* the self-contained group of content that advertises the food page  */
-{
+/* the advert that links to the food page  */
+  {
   background-image: url(images/food.jpg);
 }
 
 /* ------- CONTACT BLOCK ------- */
 
-/* the group of content that includes contact information */  
-{
+/* the group of content that includes contact information */
+  {
   margin: 0 0 40px;
   text-align: center;
 }
 
-/* a div element inside the group of content that includes contact information */  
-{
+/* a div element inside the contact information */
+  {
   display: inline-block;
   padding-right: 40px;
 }
 
-/* a list inside the group of content that includes contact information */  
-{
+/* a list inside the contact information */
+  {
   list-style-type: none;
+  padding-left: 0;
 }
 
-/* ------- EDITORIAL IMAGE ------- */
+/* ------- EDITORIAL IMAGE (featured on the story page) ------- */
 
-/* a self-contained group of content that includes an image and a caption */ 
-{
+/* a self-contained group of content that includes an image and a caption */
+  {
   text-align: center;
 }
 
-/* a caption inside a self-contained group of content that includes an image and a caption */ 
-{
+/* a caption inside a self-contained group of content that includes an image and a caption */
+  {
   font-style: italic;
 }
 
 /* ------- QUOTES ------- */
 
-/* an element that indicates that the enclosed text is an extended quotation */ 
-{
+/* an element that indicates that the enclosed text is an extended quotation */
+  {
   background-color: #3C5060;
   color: white;
   padding: 60px;
   width: 900px;
   margin: 0 auto 40px auto;
   text-align: center;
+  font-style: italic;
   font-size: 26px;
   margin: 40px 0;
 }
 
-/* the author of the quotation */ 
-{
+/* the author of the quotation */
+  {
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 14px;
 }
-
-
