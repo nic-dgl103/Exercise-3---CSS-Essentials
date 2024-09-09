@@ -4,222 +4,141 @@
 }
 
 body {
-  font-family: serif;
+  font-family: sans-serif;
   margin: 0;
-  color: #450f0f;
-  background-color: #F9F3E9;
+  background-color: #f3eceb;
   font-size: 16px;
   line-height: 1.4;
 }
 
-header section,
-nav ul,
-main,
-footer section,
-footer div {
+/* a section element */
+  {
   width: 900px;
   margin: auto;
 }
 
-a {
-  color: #CC5500
+/* an image element */
+  {
+  margin: auto;
+  display: block;
 }
 
-/* ------- HEADERS ------- */
+/*-------- TYPOGRAPHY ---------*/
 
-/* the header on every page */
+/* a heading 1 element */
   {
-  background-image: url(images/outside.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-/* a section of content inside the header on every page */
-  {
-  padding: 100px 0;
-  color: white;
-  font-size: 30px;
-}
-
-/* the homepage header only */
-  {
-  background-image: url(images/patio.jpg);
-}
-
-/* a section of content inside the homepage header only, not the story page */
-  {
-  font-size: 40px;
-}
-
-/* ------- NAVIGATION ------- */
-
-/* the navigation */
-  {
-  background-color: #5f1422;
-  color: white;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  color: #FFAA1D;
-  text-align: center;
-}
-
-/* a list in the navigation */
-  {
-  list-style-type: none;
-}
-
-/* a list item in the navigation */
-  {
-  display: inline-block;
-  padding: 20px 40px;
-}
-
-/* an anchor in the navigation */
-  {
-  color: #FFAA1D;
-  text-decoration: none;
-}
-
-/* the current page in the navigation */
-  {
-  color: white;
-}
-
-/* ------- FOOTER ------- */
-
-/* the footer */
-  {
-  font-family: sans-serif;
-  background-color: #292929;
-  color: white;
-  font-size: 14px;
-}
-
-/* a section of content inside the footer */
-  {
-  padding: 20px 0;
-}
-
-/* a level 2 heading inside the footer */
-  {
-  font-size: 18px;
-}
-
-/* an anchor inside the footer */
-  {
-  color: #FFAA1D;
-}
-
-/* a div element inside the footer */
-  {
-  padding: 15px 0 25px;
-}
-
-/* ======== CONTENT BLOCKS ========= */
-
-/* ------- INTRO BLOCK ------- */
-
-/* the groups of content that are highlighted because they are page introductions */
-  {
-  text-align: center;
-  padding: 40px 0;
-  margin: 40px auto;
-  font-size: 22px;
-  line-height: 1.4;
-  background-image: url(images/cbc-logo-orange.png);
-  background-size: 200px 200px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* ------- FEATURE BLOCK ------- */
-
-/* the self-contained groups of content that advertise another part of the website  */
-  {
-  font-size: 18px;
-  padding: 40px;
-  margin: 56px 0;
-  background-color: #597184;
-  color: white;
-  font-family: sans-serif;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-
-/* a level 2 heading inside the advert */
-  {
-  font-size: 48px;
   font-family: serif;
+  font-size: 40px;
   margin-top: 0;
-}
-
-/* an anchor inside the advert */
-  {
-  color: #FFAA1D;
-}
-
-/* the advert that links to the beer page  */
-  {
-  background-image: url(images/beer.jpg);
-}
-
-/* the advert that links to the food page  */
-  {
-  background-image: url(images/food.jpg);
-}
-
-/* ------- CONTACT BLOCK ------- */
-
-/* the group of content that includes contact information */
-  {
-  margin: 0 0 40px;
   text-align: center;
 }
 
-/* a div element inside the contact information */
+/* an anchor element */
   {
-  display: inline-block;
-  padding-right: 40px;
+  color: #e6a39a;
 }
 
-/* a list inside the contact information */
+/*-------- HEADER AND NAVIGATION ---------*/
+
+/* a header element */
+  {
+  background: url("images/hairdressing.jpeg") no-repeat top left;
+  background-attachment: fixed;
+  background-color: white;
+}
+
+/* an anchor element inside a header */
+  {
+  display: block;
+  text-align: center;
+}
+
+/* a navigation element */
+  {
+  background-color: black;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+/* an unordered list inside a navigation */
   {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* ------- EDITORIAL IMAGE (featured on the story page) ------- */
-
-/* a self-contained group of content that includes an image and a caption */
+/* a list item inside a navigation */
   {
-  text-align: center;
+  display: inline-block;
+  padding: 20px;
 }
 
-/* a caption inside a self-contained group of content that includes an image and a caption */
+/* an anchor inside a navigation */
   {
-  font-style: italic;
+  text-decoration: none;
 }
 
-/* ------- QUOTES ------- */
+/* ------- FOOTER ------- */
 
-/* an element that indicates that the enclosed text is an extended quotation */
+/* a footer element */
   {
-  background-color: #3C5060;
+  background-color: #000000;
   color: white;
-  padding: 60px;
-  width: 900px;
-  margin: 0 auto 40px auto;
+  padding: 40px;
   text-align: center;
-  font-style: italic;
-  font-size: 26px;
+  margin-top: 80px;
+}
+
+/* ======== CONTENT BLOCKS ========= */
+
+/* a self-contained group of content that advertises another part of the website */
+  {
+  text-align: center;
+  background-color: #E8A49B;
+  padding: 40px;
   margin: 40px 0;
 }
 
-/* the author of the quotation */
+/* an anchor inside an advert */
   {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 14px;
+  color: white;
+}
+
+/* the section of content that contains the price list on the Services page*/
+  {
+  background-color: #E8A49B;
+  padding: 40px;
+  margin: 40px auto;
+}
+
+/* a heading 2 inside the price list */
+  {
+  text-align: center;
+  font-family: serif;
+  font-size: 30px;
+}
+
+/* an unordered list inside the price list */
+.prices ul {
+  list-style-type: square;
+}
+
+/* the section of content that contains the contact information on the Contact page */
+  {
+  background-color: #E8A49B;
+  padding: 40px;
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+/* a horizontal ruler inside the contact info */
+  {
+  margin: 40px 0;
+  height: 1px;
+  border-width: 0;
+  background-color: black
+}
+
+/* an anchor inside the contact info */
+  {
+  color: white;
 }

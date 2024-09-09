@@ -2,8 +2,10 @@
 
 ## Objectives
 The provided code is the HTML and CSS for the home page and story page of a website inspired by a local company. However, the CSS is missing all of its selectors! You need to figure out which HTML elements to apply each style rule to, so that your finished website looks like the images below. After that, you will write some HTML and CSS of your own.
-![Image of homepage](images/finished-homepage.png)
-![Image of homepage](images/finished-story.png)
+
+<img src="images/screenshot-homepage.png" width="500">
+<img src="images/screenshot-services.png" width="500">
+<img src="images/screenshot-contact.png" width="500">
 
 ## Instructions
 Remember to:
@@ -27,7 +29,7 @@ p {
   color: red;
 }
 ```
-4. Repeat the same process for the story.html page<br>
+4. Repeat the same process for the Service and Contact pages<br>
 
 Notes: 
 * The provided code includes HTML elements and CSS properties that you haven't learned about yet. That's ok because this exercise is about understanding the relationships between the HTML elements and the syntax of the selectors. You don't need to understand all the code to be able to complete the exercise.
@@ -36,7 +38,7 @@ Notes:
 * You can use the browser inspect tools to help you. In the browser window, right-click > Inspect to see the HTML code rendered by the browser.
 
 ### Step 3: Write your own code
-1. Add a new block of content at the bottom of the homepage. You will need to write the content, HTML and CSS yourself. Include at least four different HTML element in your new block of content.
+1. Add a new block of content at the bottom of the homepage. You will need to write the content, HTML and CSS yourself. Include at least five different HTML elements in your new block of content.
 2. Style your new content using all of the following:
     * An ID selector
     * A class selector
@@ -45,11 +47,11 @@ Notes:
     * An inline style rule
 
 ### Step 4: Format and add comments 
-1. Use the Prettier VSCode extension to format your code.
+1. Use the Prettier VSCode extension to format your code (Right-click > Format document)
 2. Add a few comments to explain your HTML and CSS code and highlight anything of interest.
 
 ### Step 5: Check for errors
-1. Use the VSCode HTMLHint extension in VS Code and the browser inspect tools to help you troubleshoot errors.
+1. Use the VSCode HTMLHint extension and the browser inspect tools to help you troubleshoot errors.
 2. Validate your HTML code to check for errors: https://validator.w3.org/#validate_by_upload. Take a screenshot of the results.
 3. Validate your CSS code to make sure that it is correct: https://jigsaw.w3.org/css-validator/ for CSS. Take a screenshot of the results.
 
