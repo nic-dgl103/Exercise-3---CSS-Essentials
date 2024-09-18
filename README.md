@@ -37,7 +37,7 @@ Notes:
 * Pay attention to how CSS comments were used to identify and organise different groups of style rules. Adding organizational comments doesn't affect the code, but it helps you keep your CSS tidy and easier to read. 
 * You can use the browser inspect tools to help you. In the browser window, right-click > Inspect to see the HTML code rendered by the browser.
 
-### Step 3: Write your own code
+### Step 2: Write your own code
 1. Add a new block of content at the bottom of the homepage. You will need to write the content, HTML and CSS yourself. Include at least five different HTML elements in your new block of content.
 2. Style your new content using all of the following:
     * An ID selector
@@ -46,11 +46,11 @@ Notes:
     * An internal (embedded) style rule
     * An inline style rule
 
-### Step 4: Format and add comments 
+### Step 3: Format and add comments 
 1. Use the Prettier VSCode extension to format your code (Right-click > Format document)
 2. Add a few comments to explain your HTML and CSS code and highlight anything of interest.
 
-### Step 5: Check for errors
+### Step 4: Check for errors
 1. Use the VSCode HTMLHint extension and the browser inspect tools to help you troubleshoot errors.
 2. Validate your HTML code to check for errors: https://validator.w3.org/#validate_by_upload. Take a screenshot of the results.
 3. Validate your CSS code to make sure that it is correct: https://jigsaw.w3.org/css-validator/ for CSS. Take a screenshot of the results.
