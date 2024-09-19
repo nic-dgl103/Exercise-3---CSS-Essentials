@@ -118,7 +118,7 @@ body {
 }
 
 /* an unordered list inside the price list */
-.prices ul {
+ {
   list-style-type: square;
 }
 
